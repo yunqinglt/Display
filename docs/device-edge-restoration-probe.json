@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "returned": null,
+  "output": "location_original_getters_restored=true\n",
+  "instructions": 38,
+  "maxInstructions": 50000000,
+  "durationMs": 5,
+  "package": "com.microsoft.emmx"
+}

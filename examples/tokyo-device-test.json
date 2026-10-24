@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "tokyo-device-test",
+  "rules": [
+    {"key":"time.wallOffsetMillis","value":3600000},
+    {"key":"locale.timeZone","value":"Pacific/Honolulu"},
+    {"key":"locale.languageTags","value":["en-US"]},
+    {"key":"network.connected","value":true},
+    {"key":"network.validated","value":true},
+    {"key":"network.metered","value":true},
+    {"key":"network.transport","value":"cellular"},
+    {"key":"state.batteryLevel","value":37},
+    {"key":"state.batteryStatus","value":3},
+    {"key":"state.batteryPlugged","value":0},
+    {"key":"state.powerSave","value":true},
+    {"key":"state.interactive","value":true},
+    {"key":"state.deviceIdle","value":false},
+    {"key":"sensors.accelerometer","value":[1.25,2.5,8.75]},
+    {"key":"sensors.gyroscope","value":[0.1,0.2,0.3]},
+    {"key":"sensors.magneticField","value":[11,22,33]},
+    {"key":"sensors.light","value":[123]},
+    {"key":"sensors.pressure","value":[1001]},
+    {"key":"sensors.proximity","value":[2]},
+    {"key":"location.position","value":{"latitude":35.681236,"longitude":139.767125,"accuracyMeters":12}}
+  ]
+}

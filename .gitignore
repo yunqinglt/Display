@@ -1,0 +1,14 @@
+.gradle/
+.gradle-home/
+.idea/
+.tools/
+**/build/
+local.properties
+*.log
+**/.cxx/
+dist/
+*.apk
+*.aab
+*.jks
+*.keystore
+__pycache__/

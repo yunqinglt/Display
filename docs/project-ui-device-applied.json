@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "returned": null,
+  "output": "project_ui_battery_applied=true\n",
+  "instructions": 24,
+  "maxInstructions": 50000000,
+  "durationMs": 1,
+  "package": "com.x1y9.probe"
+}

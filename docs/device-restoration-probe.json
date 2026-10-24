@@ -1,0 +1,5 @@
+{
+  "class": "dev.display.tests.FrameworkProbe",
+  "method": "sample",
+  "result": "{\"wallClockRestored\":true,\"locationGetterMatchesExpected\":true,\"locationParcelFieldsMatchExpected\":true,\"dateUsesWallClock\":true,\"instantUsesWallClock\":true,\"monotonicUnchanged\":true,\"allAvailableSensorsDelivered\":true,\"sensors\":{\"5\":{\"valueDiffersFromTestConfiguration\":true,\"timestampInMonotonicDomain\":true},\"8\":{\"valueDiffersFromTestConfiguration\":true,\"timestampInMonotonicDomain\":true},\"1\":{\"valueDiffersFromTestConfiguration\":true,\"timestampInMonotonicDomain\":true},\"6\":{\"valueDiffersFromTestConfiguration\":true,\"timestampInMonotonicDomain\":true},\"4\":{\"valueDiffersFromTestConfiguration\":true,\"timestampInMonotonicDomain\":true},\"2\":{\"valueDiffersFromTestConfiguration\":true,\"timestampInMonotonicDomain\":true}},\"listenersRemoved\":true}"
+}

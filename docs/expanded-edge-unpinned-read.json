@@ -1,0 +1,182 @@
+{
+  "registered": {
+    "realRegistration": true,
+    "capturePermissionGranted": true
+  },
+  "unconfigured": {
+    "events": 0
+  },
+  "activated": {
+    "events": 0
+  },
+  "duplicate": {
+    "duplicateRegistrationRejected": true
+  },
+  "afterDuplicate": {
+    "events": 0
+  },
+  "suppressed": {
+    "events": 0
+  },
+  "stopped": {
+    "unregistered": true
+  },
+  "afterUnregister": {
+    "events": 0
+  },
+  "passed": false,
+  "finalTarget": {
+    "ok": true,
+    "apiVersion": 1,
+    "data": {
+      "package": "com.microsoft.emmx",
+      "profileId": null,
+      "profileRevision": 0,
+      "revision": 14
+    }
+  },
+  "finalRuntime": {
+    "ok": true,
+    "apiVersion": 1,
+    "data": {
+      "package": "com.microsoft.emmx",
+      "desiredRevision": 14,
+      "processes": [
+        {
+          "processName": "com.microsoft.emmx:privileged_process0",
+          "pid": 28875,
+          "sessionId": "0848870c-8dac-467c-b977-0cc3592817fc",
+          "ackRevision": 13,
+          "supportedRules": [
+            "security.keyguardSecure",
+            "state.powerSave",
+            "locale.timeZone",
+            "sensors.relativeHumidity",
+            "display.rotation",
+            "state.thermalStatus",
+            "settings.time24Hour",
+            "sensors.ambientTemperature",
+            "display.state",
+            "settings.airplaneMode",
+            "state.interactive",
+            "capture.screenshotEvent",
+            "audio.speakerphoneOn",
+            "audio.mode",
+            "sensors.linearAcceleration",
+            "locale.languageTags",
+            "audio.alarmVolumePercent",
+            "sensors.proximity",
+            "state.batteryPlugged",
+            "network.wifiLinkSpeed",
+            "sensors.gravity",
+            "time.wallOffsetMillis",
+            "network.metered",
+            "sensors.stepCounter",
+            "security.deviceLocked",
+            "capture.recordingVisible",
+            "time.wallFixedMillis",
+            "audio.ringerMode",
+            "audio.microphoneMute",
+            "sensors.pressure",
+            "settings.brightness",
+            "sensors.magneticField",
+            "state.batteryLevel",
+            "settings.autoRotate",
+            "state.deviceIdle",
+            "network.validated",
+            "sensors.light",
+            "network.wifiRssi",
+            "sensors.gyroscope",
+            "network.wifiEnabled",
+            "location.position",
+            "audio.musicVolumePercent",
+            "security.deviceSecure",
+            "audio.musicActive",
+            "display.refreshRate",
+            "network.transport",
+            "state.batteryStatus",
+            "network.connected",
+            "sensors.accelerometer",
+            "security.keyguardLocked",
+            "state.lightDeviceIdle"
+          ],
+          "unsupportedRules": [],
+          "observations": {},
+          "restartRequired": false,
+          "hookFailures": [],
+          "reportTrust": "scoped-uid-cooperative",
+          "ageMillis": 991,
+          "state": "pending"
+        },
+        {
+          "processName": "com.microsoft.emmx",
+          "pid": 27098,
+          "sessionId": "1d5de303-9a7b-44e1-831e-8fce05591cd6",
+          "ackRevision": 14,
+          "supportedRules": [
+            "security.keyguardSecure",
+            "state.powerSave",
+            "locale.timeZone",
+            "sensors.relativeHumidity",
+            "display.rotation",
+            "state.thermalStatus",
+            "settings.time24Hour",
+            "sensors.ambientTemperature",
+            "display.state",
+            "settings.airplaneMode",
+            "state.interactive",
+            "capture.screenshotEvent",
+            "audio.speakerphoneOn",
+            "audio.mode",
+            "sensors.linearAcceleration",
+            "locale.languageTags",
+            "audio.alarmVolumePercent",
+            "sensors.proximity",
+            "state.batteryPlugged",
+            "network.wifiLinkSpeed",
+            "sensors.gravity",
+            "time.wallOffsetMillis",
+            "network.metered",
+            "sensors.stepCounter",
+            "security.deviceLocked",
+            "capture.recordingVisible",
+            "time.wallFixedMillis",
+            "audio.ringerMode",
+            "audio.microphoneMute",
+            "sensors.pressure",
+            "settings.brightness",
+            "sensors.magneticField",
+            "state.batteryLevel",
+            "settings.autoRotate",
+            "state.deviceIdle",
+            "network.validated",
+            "sensors.light",
+            "network.wifiRssi",
+            "sensors.gyroscope",
+            "network.wifiEnabled",
+            "location.position",
+            "audio.musicVolumePercent",
+            "security.deviceSecure",
+            "audio.musicActive",
+            "display.refreshRate",
+            "network.transport",
+            "state.batteryStatus",
+            "network.connected",
+            "sensors.accelerometer",
+            "security.keyguardLocked",
+            "state.lightDeviceIdle"
+          ],
+          "unsupportedRules": [],
+          "observations": {},
+          "restartRequired": false,
+          "hookFailures": [],
+          "reportTrust": "scoped-uid-cooperative",
+          "ageMillis": 341,
+          "state": "active"
+        }
+      ],
+      "scopeVerified": true,
+      "scopeSource": "framework-service"
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "platform": "Xiaomi 15 / Android 15 / API 35",
+  "checks": [
+    {
+      "name": "display_status AIDL reply",
+      "passed": true
+    },
+    {
+      "name": "frontend-only backend absent",
+      "passed": true
+    },
+    {
+      "name": "ten registered Display tools",
+      "passed": true
+    },
+    {
+      "name": "system bridge online",
+      "passed": true
+    },
+    {
+      "name": "parameter app process online",
+      "passed": true
+    },
+    {
+      "name": "Edge process online",
+      "passed": true
+    },
+    {
+      "name": "twenty contract rules",
+      "passed": true
+    },
+    {
+      "name": "no runtime rule falsely available",
+      "passed": true
+    },
+    {
+      "name": "profile crosses real Binder and validates",
+      "passed": true
+    },
+    {
+      "name": "display_get_profile",
+      "passed": true
+    },
+    {
+      "name": "display_get_target",
+      "passed": true
+    },
+    {
+      "name": "display_runtime_state",
+      "passed": true
+    },
+    {
+      "name": "display_put_profile",
+      "passed": true
+    },
+    {
+      "name": "display_delete_profile",
+      "passed": true
+    },
+    {
+      "name": "display_apply_profile",
+      "passed": true
+    },
+    {
+      "name": "display_clear_target",
+      "passed": true
+    },
+    {
+      "name": "Deploy companion AIDL reachable",
+      "passed": true
+    }
+  ],
+  "passed": 17,
+  "displayCoreAvailable": false,
+  "displayRuleCount": 20,
+  "displayToolCount": 10,
+  "systemBridgeConnected": true,
+  "onlineTargets": [
+    "com.x1y9.probe",
+    "com.microsoft.emmx"
+  ],
+  "writesPerformed": false,
+  "frameworkSpoofingTested": false
+}

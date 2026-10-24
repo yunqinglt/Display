@@ -1,0 +1,75 @@
+{
+  "primitiveFields": 63,
+  "fullRealRecordingSessionTested": false,
+  "gettersAndFixturesPassed": true,
+  "hostChecks": 518,
+  "categories": 12,
+  "displayVersion": "0.4.0",
+  "contractsIdentical": true,
+  "catalogueRules": 51,
+  "installed": [
+    {
+      "details": [
+        "versionCode=7 minSdk=31 targetSdk=36",
+        "versionName=0.4.0"
+      ],
+      "package": "dev.display"
+    },
+    {
+      "details": [
+        "versionCode=18 minSdk=31 targetSdk=36",
+        "versionName=1.1.6"
+      ],
+      "package": "dev.posedmcp"
+    },
+    {
+      "details": [
+        "versionCode=4 minSdk=31 targetSdk=36",
+        "versionName=0.4.0"
+      ],
+      "package": "dev.deploy"
+    }
+  ],
+  "ui": {
+    "recordingExplanationVisible": true,
+    "draftFalseSaved": true,
+    "targetRemainsDisabled": true,
+    "draftRestoredToEmpty": true,
+    "falseReopened": true
+  },
+  "realActivityScreenshotPassed": true,
+  "targets": [
+    {
+      "liveReports": [
+        {
+          "pid": 27097,
+          "ackRevision": 17,
+          "state": "active",
+          "unsupportedRules": [],
+          "hookFailures": []
+        }
+      ],
+      "profileId": null,
+      "revision": 17,
+      "package": "com.x1y9.probe",
+      "supportedRuleCount": 51,
+      "observedWithTargetForeground": true
+    },
+    {
+      "liveReports": [
+        {
+          "pid": 27098,
+          "ackRevision": 18,
+          "state": "active",
+          "unsupportedRules": [],
+          "hookFailures": []
+        }
+      ],
+      "profileId": null,
+      "revision": 18,
+      "package": "com.microsoft.emmx",
+      "supportedRuleCount": 51,
+      "observedWithTargetForeground": true
+    }
+  ]
+}

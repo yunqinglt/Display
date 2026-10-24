@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "returned": "{network_transport=true, locale_list=true, battery_intent=true, network_capabilities=true, power_save=true, battery_level=true, location_getters=true, network_metered=true, resource_locale=true, locale=true, device_idle=true, battery_not_charging=true, interactive=true, time_zone=true, battery_status=true}",
+  "output": "network_transport=true\nlocale_list=true\nbattery_intent=true\nnetwork_capabilities=true\npower_save=true\nbattery_level=true\nlocation_getters=true\nnetwork_metered=true\nresource_locale=true\nlocale=true\ndevice_idle=true\nbattery_not_charging=true\ninteractive=true\ntime_zone=true\nbattery_status=true\npassed=15/15\n",
+  "instructions": 628,
+  "maxInstructions": 50000000,
+  "durationMs": 14,
+  "package": "com.microsoft.emmx"
+}

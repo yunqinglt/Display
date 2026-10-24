@@ -1,0 +1,38 @@
+{
+  "version": "0.3.0",
+  "hostChecks": {
+    "frontend": 175,
+    "core": 26,
+    "project": 101,
+    "total": 302
+  },
+  "device": {
+    "frameworkValueApplied": true,
+    "projectUiReportedAvailable": true,
+    "disabledDraftSavedWithoutBinding": true,
+    "keyboardCancelTapVerified": true,
+    "offPreservesDraft": true,
+    "keyboardButtonVisibilityVerified": true,
+    "frameworkValueRestored": true,
+    "emptySwitchGuardVerified": true,
+    "outOfRangeIntegerRejected": true,
+    "offClearsBinding": true
+  },
+  "final": {
+    "edgeTargetRevision": 4,
+    "bothUnbound": true,
+    "probeTargetRevision": 6,
+    "temporaryUiRulesRemoved": true
+  },
+  "screenshots": [
+    "project-ui-home.png",
+    "project-ui-categories.png",
+    "project-ui-interfaces.png",
+    "project-ui-editor.png",
+    "project-ui-location-editor.png"
+  ],
+  "notDeviceTested": [
+    "dark-theme-specific",
+    "rotation-specific"
+  ]
+}

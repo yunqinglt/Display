@@ -1,0 +1,9 @@
+{
+  "ok": true,
+  "returned": null,
+  "output": "parcel_payload_rewritten=true\n",
+  "instructions": 173,
+  "maxInstructions": 50000000,
+  "durationMs": 5,
+  "package": "com.microsoft.emmx"
+}

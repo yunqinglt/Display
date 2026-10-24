@@ -1,0 +1,17 @@
+{
+  "ipRoutingModified": false,
+  "finalBindingsCleared": true,
+  "afterUpgrade": {
+    "longitudeMatchesTokyo": true,
+    "evidence": "User directly confirmed displayed browser coordinates after 0.2.3 cold start",
+    "testLatitude": 35.681236,
+    "latitudeMatchesTokyo": true,
+    "testLongitude": 139.767125
+  },
+  "version": "0.2.3",
+  "beforeUpgrade": {
+    "longitudeMatchesTokyo": false,
+    "evidence": "PosEdMCP UI tree after fresh request on 0.2.2",
+    "latitudeMatchesTokyo": false
+  }
+}

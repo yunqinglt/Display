@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "apiVersion": 1,
+  "data": {
+    "package": "com.x1y9.probe",
+    "desiredRevision": 6,
+    "processes": [
+      {
+        "processName": "com.x1y9.probe",
+        "pid": 2367,
+        "sessionId": "3f945b46-92a1-4ad5-9e72-b996b44f4b56",
+        "ackRevision": 6,
+        "supportedRules": [
+          "locale.languageTags",
+          "sensors.proximity",
+          "state.powerSave",
+          "locale.timeZone",
+          "state.batteryPlugged",
+          "sensors.pressure",
+          "network.transport",
+          "time.wallOffsetMillis",
+          "state.batteryLevel",
+          "state.batteryStatus",
+          "sensors.magneticField",
+          "state.deviceIdle",
+          "network.validated",
+          "state.interactive",
+          "network.metered",
+          "network.connected",
+          "sensors.accelerometer",
+          "sensors.light",
+          "sensors.gyroscope",
+          "location.position",
+          "time.wallFixedMillis"
+        ],
+        "unsupportedRules": [],
+        "observations": {},
+        "restartRequired": false,
+        "hookFailures": [],
+        "reportTrust": "scoped-uid-cooperative",
+        "ageMillis": 757,
+        "state": "active"
+      }
+    ],
+    "scopeVerified": true,
+    "scopeSource": "framework-service"
+  }
+}

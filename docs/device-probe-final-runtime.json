@@ -1,0 +1,118 @@
+{
+  "ok": true,
+  "apiVersion": 1,
+  "data": {
+    "package": "com.x1y9.probe",
+    "desiredRevision": 2,
+    "processes": [
+      {
+        "processName": "com.x1y9.probe",
+        "pid": 29967,
+        "sessionId": "106c7edb-eded-431a-8229-37bae0fecaaf",
+        "ackRevision": 1,
+        "supportedRules": [
+          "locale.languageTags",
+          "sensors.proximity",
+          "state.powerSave",
+          "locale.timeZone",
+          "state.batteryPlugged",
+          "sensors.pressure",
+          "network.transport",
+          "time.wallOffsetMillis",
+          "state.batteryLevel",
+          "state.batteryStatus",
+          "sensors.magneticField",
+          "state.deviceIdle",
+          "network.validated",
+          "state.interactive",
+          "network.metered",
+          "network.connected",
+          "sensors.accelerometer",
+          "sensors.light",
+          "sensors.gyroscope",
+          "location.position",
+          "time.wallFixedMillis"
+        ],
+        "unsupportedRules": [],
+        "observations": {
+          "locale.languageTags": {
+            "calls": 2980
+          },
+          "time.wallOffsetMillis": {
+            "calls": 408
+          },
+          "state.batteryLevel": {
+            "calls": 4
+          },
+          "sensors.magneticField": {
+            "calls": 1
+          },
+          "sensors.proximity": {
+            "calls": 1
+          },
+          "sensors.light": {
+            "calls": 1
+          },
+          "sensors.accelerometer": {
+            "calls": 2
+          },
+          "state.batteryPlugged": {
+            "calls": 1
+          },
+          "sensors.gyroscope": {
+            "calls": 1
+          },
+          "location.position": {
+            "calls": 4
+          },
+          "sensors.pressure": {
+            "calls": 1
+          }
+        },
+        "restartRequired": false,
+        "hookFailures": [],
+        "reportTrust": "scoped-uid-cooperative",
+        "ageMillis": 38497,
+        "state": "stale"
+      },
+      {
+        "processName": "com.x1y9.probe",
+        "pid": 31101,
+        "sessionId": "575afec9-ec55-4b6e-a59c-be672f201149",
+        "ackRevision": 2,
+        "supportedRules": [
+          "locale.languageTags",
+          "sensors.proximity",
+          "state.powerSave",
+          "locale.timeZone",
+          "state.batteryPlugged",
+          "sensors.pressure",
+          "network.transport",
+          "time.wallOffsetMillis",
+          "state.batteryLevel",
+          "state.batteryStatus",
+          "sensors.magneticField",
+          "state.deviceIdle",
+          "network.validated",
+          "state.interactive",
+          "network.metered",
+          "network.connected",
+          "sensors.accelerometer",
+          "sensors.light",
+          "sensors.gyroscope",
+          "location.position",
+          "time.wallFixedMillis"
+        ],
+        "unsupportedRules": [],
+        "observations": {},
+        "restartRequired": false,
+        "hookFailures": [],
+        "reportTrust": "scoped-uid-cooperative",
+        "ageMillis": 997,
+        "state": "active"
+      }
+    ],
+    "scopeVerified": true,
+    "scopeSource": "framework-service"
+  }
+}

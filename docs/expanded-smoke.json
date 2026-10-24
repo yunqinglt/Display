@@ -1,0 +1,208 @@
+{
+  "baseline": {
+    "savedGetterCount": 31
+  },
+  "getters": {
+    "keyguardLocked": true,
+    "deviceLocked": true,
+    "keyguardSecure": true,
+    "deviceSecure": true,
+    "ringerMode": true,
+    "audioMode": true,
+    "musicActive": true,
+    "microphoneMute": true,
+    "speakerphoneOn": true,
+    "musicVolume": true,
+    "alarmVolume": true,
+    "rotation": true,
+    "refreshRate": true,
+    "modeRefreshRate": true,
+    "displayState": true,
+    "thermalStatus": true,
+    "lightIdle": true,
+    "airplaneInt": true,
+    "airplaneString": true,
+    "autoRotate": true,
+    "brightness": true,
+    "time24": true,
+    "timeFormat": true,
+    "wifiEnabled": true,
+    "wifiState": true,
+    "rssi": true,
+    "linkSpeed": true
+  },
+  "sensors": {
+    "13": "hardware-absent",
+    "12": "hardware-absent",
+    "19": "permission-not-granted-not-bypassed",
+    "9": {
+      "matches": true,
+      "monotonicTimestamp": true
+    },
+    "10": {
+      "matches": true,
+      "monotonicTimestamp": true
+    }
+  },
+  "permission": {
+    "recordingPermissionNotGranted": true,
+    "recordingPermissionExceptionPreserved": true
+  },
+  "captureStart": {
+    "screenshotEvents": 1,
+    "recordingEvents": 0,
+    "lastRecording": -1,
+    "initialRecording": 1,
+    "fixture": "detached-framework-no-binder-registration"
+  },
+  "captureTrueEvent": {
+    "screenshotEvents": 2,
+    "recordingEvents": 1,
+    "lastRecording": 1
+  },
+  "captureFalse": {
+    "screenshotEvents": 2,
+    "recordingEvents": 2,
+    "lastRecording": 0
+  },
+  "captureFalseEvent": {
+    "screenshotEvents": 2,
+    "recordingEvents": 3,
+    "lastRecording": 0
+  },
+  "restored": {
+    "keyguardLocked": true,
+    "deviceLocked": true,
+    "keyguardSecure": true,
+    "deviceSecure": true,
+    "ringerMode": true,
+    "audioMode": true,
+    "musicActive": true,
+    "microphoneMute": true,
+    "speakerphoneOn": true,
+    "musicVolume": true,
+    "musicMin": true,
+    "musicMax": true,
+    "alarmVolume": true,
+    "alarmMin": true,
+    "alarmMax": true,
+    "rotation": true,
+    "refreshRate": true,
+    "modeRefreshRate": true,
+    "displayState": true,
+    "thermalStatus": true,
+    "lightIdle": true,
+    "airplaneInt": true,
+    "airplaneString": true,
+    "autoRotate": true,
+    "brightness": true,
+    "time24": true,
+    "timeFormat": true,
+    "wifiEnabled": true,
+    "wifiState": true,
+    "rssi": true,
+    "linkSpeed": true
+  },
+  "captureRestored": {
+    "screenshotEvents": 2,
+    "recordingEvents": 4,
+    "lastRecording": 0
+  },
+  "captureStopped": {
+    "unregistered": true
+  },
+  "postUnregister": {
+    "screenshotEvents": 2,
+    "recordingEvents": 4,
+    "lastRecording": 0
+  },
+  "finalTarget": {
+    "ok": true,
+    "apiVersion": 1,
+    "data": {
+      "package": "com.x1y9.probe",
+      "profileId": null,
+      "profileRevision": 0,
+      "revision": 17
+    }
+  },
+  "finalRuntime": {
+    "ok": true,
+    "apiVersion": 1,
+    "data": {
+      "package": "com.x1y9.probe",
+      "desiredRevision": 17,
+      "processes": [
+        {
+          "processName": "com.x1y9.probe",
+          "pid": 27097,
+          "sessionId": "26dbe4fd-ab83-42c7-b0d3-1f7fbc7a903d",
+          "ackRevision": 17,
+          "supportedRules": [
+            "security.keyguardSecure",
+            "state.powerSave",
+            "locale.timeZone",
+            "sensors.relativeHumidity",
+            "display.rotation",
+            "state.thermalStatus",
+            "settings.time24Hour",
+            "sensors.ambientTemperature",
+            "display.state",
+            "settings.airplaneMode",
+            "state.interactive",
+            "capture.screenshotEvent",
+            "audio.speakerphoneOn",
+            "audio.mode",
+            "sensors.linearAcceleration",
+            "locale.languageTags",
+            "audio.alarmVolumePercent",
+            "sensors.proximity",
+            "state.batteryPlugged",
+            "network.wifiLinkSpeed",
+            "sensors.gravity",
+            "time.wallOffsetMillis",
+            "network.metered",
+            "sensors.stepCounter",
+            "security.deviceLocked",
+            "capture.recordingVisible",
+            "time.wallFixedMillis",
+            "audio.ringerMode",
+            "audio.microphoneMute",
+            "sensors.pressure",
+            "settings.brightness",
+            "sensors.magneticField",
+            "state.batteryLevel",
+            "settings.autoRotate",
+            "state.deviceIdle",
+            "network.validated",
+            "sensors.light",
+            "network.wifiRssi",
+            "sensors.gyroscope",
+            "network.wifiEnabled",
+            "location.position",
+            "audio.musicVolumePercent",
+            "security.deviceSecure",
+            "audio.musicActive",
+            "display.refreshRate",
+            "network.transport",
+            "state.batteryStatus",
+            "network.connected",
+            "sensors.accelerometer",
+            "security.keyguardLocked",
+            "state.lightDeviceIdle"
+          ],
+          "unsupportedRules": [],
+          "observations": {},
+          "restartRequired": false,
+          "hookFailures": [],
+          "reportTrust": "scoped-uid-cooperative",
+          "ageMillis": 365,
+          "state": "active"
+        }
+      ],
+      "scopeVerified": true,
+      "scopeSource": "framework-service"
+    }
+  },
+  "passed": true
+}

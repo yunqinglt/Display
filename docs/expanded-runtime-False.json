@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "apiVersion": 1,
+  "data": {
+    "package": "com.x1y9.probe",
+    "desiredRevision": 16,
+    "processes": [
+      {
+        "processName": "com.x1y9.probe",
+        "pid": 27097,
+        "sessionId": "26dbe4fd-ab83-42c7-b0d3-1f7fbc7a903d",
+        "ackRevision": 16,
+        "supportedRules": [
+          "security.keyguardSecure",
+          "state.powerSave",
+          "locale.timeZone",
+          "sensors.relativeHumidity",
+          "display.rotation",
+          "state.thermalStatus",
+          "settings.time24Hour",
+          "sensors.ambientTemperature",
+          "display.state",
+          "settings.airplaneMode",
+          "state.interactive",
+          "capture.screenshotEvent",
+          "audio.speakerphoneOn",
+          "audio.mode",
+          "sensors.linearAcceleration",
+          "locale.languageTags",
+          "audio.alarmVolumePercent",
+          "sensors.proximity",
+          "state.batteryPlugged",
+          "network.wifiLinkSpeed",
+          "sensors.gravity",
+          "time.wallOffsetMillis",
+          "network.metered",
+          "sensors.stepCounter",
+          "security.deviceLocked",
+          "capture.recordingVisible",
+          "time.wallFixedMillis",
+          "audio.ringerMode",
+          "audio.microphoneMute",
+          "sensors.pressure",
+          "settings.brightness",
+          "sensors.magneticField",
+          "state.batteryLevel",
+          "settings.autoRotate",
+          "state.deviceIdle",
+          "network.validated",
+          "sensors.light",
+          "network.wifiRssi",
+          "sensors.gyroscope",
+          "network.wifiEnabled",
+          "location.position",
+          "audio.musicVolumePercent",
+          "security.deviceSecure",
+          "audio.musicActive",
+          "display.refreshRate",
+          "network.transport",
+          "state.batteryStatus",
+          "network.connected",
+          "sensors.accelerometer",
+          "security.keyguardLocked",
+          "state.lightDeviceIdle"
+        ],
+        "unsupportedRules": [],
+        "observations": {
+          "capture.recordingVisible": {
+            "calls": 1
+          }
+        },
+        "restartRequired": false,
+        "hookFailures": [],
+        "reportTrust": "scoped-uid-cooperative",
+        "ageMillis": 387,
+        "state": "active"
+      }
+    ],
+    "scopeVerified": true,
+    "scopeSource": "framework-service"
+  }
+}

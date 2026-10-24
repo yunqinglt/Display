@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "apiVersion": 1,
+  "data": {
+    "name": "Display",
+    "version": "0.3.0",
+    "phase": "project-ui",
+    "coreAvailable": true,
+    "frameworkStatus": {
+      "storage": "atomic-private-file",
+      "retryReceiptLimit": 256,
+      "entryLimit": 128,
+      "framework": {
+        "connected": true,
+        "name": "Vector",
+        "version": "2.2 (3112) ddeed8ca-JingMatrix-Vector",
+        "api": 102
+      },
+      "runtimeChannel": "scoped-uid-binder",
+      "scopeSource": "framework-service"
+    },
+    "projectUiAvailable": true
+  }
+}

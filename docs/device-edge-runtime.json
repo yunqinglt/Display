@@ -1,0 +1,92 @@
+{
+  "ok": true,
+  "apiVersion": 1,
+  "data": {
+    "package": "com.microsoft.emmx",
+    "desiredRevision": 3,
+    "processes": [
+      {
+        "processName": "com.microsoft.emmx:privileged_process0",
+        "pid": 30938,
+        "sessionId": "1b9ecb9e-7d49-497b-8023-21ccfa90c117",
+        "ackRevision": 3,
+        "supportedRules": [
+          "locale.languageTags",
+          "sensors.proximity",
+          "state.powerSave",
+          "locale.timeZone",
+          "state.batteryPlugged",
+          "sensors.pressure",
+          "network.transport",
+          "time.wallOffsetMillis",
+          "state.batteryLevel",
+          "state.batteryStatus",
+          "sensors.magneticField",
+          "state.deviceIdle",
+          "network.validated",
+          "state.interactive",
+          "network.metered",
+          "network.connected",
+          "sensors.accelerometer",
+          "sensors.light",
+          "sensors.gyroscope",
+          "location.position",
+          "time.wallFixedMillis"
+        ],
+        "unsupportedRules": [],
+        "observations": {
+          "location.position": {
+            "calls": 1
+          }
+        },
+        "restartRequired": false,
+        "hookFailures": [],
+        "reportTrust": "scoped-uid-cooperative",
+        "ageMillis": 801,
+        "state": "active"
+      },
+      {
+        "processName": "com.microsoft.emmx",
+        "pid": 29248,
+        "sessionId": "71f52bf9-2248-44cb-b635-cf223192e3e1",
+        "ackRevision": 3,
+        "supportedRules": [
+          "locale.languageTags",
+          "sensors.proximity",
+          "state.powerSave",
+          "locale.timeZone",
+          "state.batteryPlugged",
+          "sensors.pressure",
+          "network.transport",
+          "time.wallOffsetMillis",
+          "state.batteryLevel",
+          "state.batteryStatus",
+          "sensors.magneticField",
+          "state.deviceIdle",
+          "network.validated",
+          "state.interactive",
+          "network.metered",
+          "network.connected",
+          "sensors.accelerometer",
+          "sensors.light",
+          "sensors.gyroscope",
+          "location.position",
+          "time.wallFixedMillis"
+        ],
+        "unsupportedRules": [],
+        "observations": {
+          "location.position": {
+            "calls": 4
+          }
+        },
+        "restartRequired": false,
+        "hookFailures": [],
+        "reportTrust": "scoped-uid-cooperative",
+        "ageMillis": 198,
+        "state": "active"
+      }
+    ],
+    "scopeVerified": true,
+    "scopeSource": "framework-service"
+  }
+}

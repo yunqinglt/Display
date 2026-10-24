@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "apiVersion": 1,
+  "data": {
+    "package": "com.x1y9.probe",
+    "desiredRevision": 3,
+    "processes": [],
+    "scopeVerified": true,
+    "scopeSource": "framework-service"
+  }
+}

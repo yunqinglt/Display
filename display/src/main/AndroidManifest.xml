@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <permission android:name="dev.display.permission.CONTROL" android:protectionLevel="signature" />
+    <!-- Runtime callers may be any user-selected scoped app, not a fixed package list. -->
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" tools:ignore="QueryAllPackagesPermission" />
+    <queries><package android:name="dev.posedmcp" /></queries>
+    <application android:name=".DisplayApplication" android:allowBackup="false" android:label="Display" android:supportsRtl="true"
+        android:icon="@drawable/ic_display" android:theme="@style/DisplayTheme" android:dataExtractionRules="@xml/data_extraction_rules">
+        <activity android:name=".ui.ProjectActivity" android:exported="true" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Each Binder method verifies the calling UID, package and signing identity. -->
+        <service android:name=".DisplayAidlService" android:exported="true"
+            android:permission="dev.display.permission.CONTROL" />
+        <service android:name=".DisplayRuntimeService" android:exported="true" />
+    </application>
+</manifest>

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "travel-test",
+  "rules": [
+    {"key": "time.wallOffsetMillis", "value": 3600000},
+    {"key": "locale.languageTags", "value": ["zh-CN", "en-US"]},
+    {"key": "locale.timeZone", "value": "Asia/Shanghai"},
+    {"key": "network.transport", "value": "wifi"},
+    {"key": "network.connected", "value": true},
+    {"key": "network.validated", "value": true},
+    {"key": "network.metered", "value": false},
+    {"key": "sensors.accelerometer", "value": [0, 0, 9.80665]},
+    {"key": "state.batteryLevel", "value": 80},
+    {"key": "state.batteryStatus", "value": 2},
+    {"key": "state.batteryPlugged", "value": 1}
+  ]
+}
